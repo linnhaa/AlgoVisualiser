@@ -37,6 +37,7 @@ public class SelectionSortScreen extends SortingScreen {
                 }
                 x = 0;
             }
+
         };
         sub.setBounds(45, 300, getWidth() - 200, 250);
         sub.setBackground(new Color(0, 0, 0, 0));
@@ -63,7 +64,7 @@ public class SelectionSortScreen extends SortingScreen {
                 }
                 if (step[1] >= 0) {
                     minIndex = step[1];
-                    g.setColor(Color.RED);
+                    g.setColor(Color.BLUE);
                     g.fillRect(minIndex * ArrayUtils.min(width, 60 + padding)
                                     + (main.getWidth() - ArrayUtils.min(width, 60 + padding) * mainArray.length) / 2,
                             -(int) (main.getArray()[minIndex] * unitHeight) + main.getHeight(),
