@@ -1,4 +1,4 @@
-package visualso.view;
+package src.visualso.view;
 
 import java.awt.Color;
 import java.awt.Font;
